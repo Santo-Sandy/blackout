@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "408749924837",
+    "project_id": "blackout-3378f",
+    "storage_bucket": "blackout-3378f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408749924837:android:3505d9cde24711eaef8f0c",
+        "android_client_info": {
+          "package_name": "com.example.blackout"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAW3LchpUUHjNR9hvYGgy1wxKnEKQKPLqc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
