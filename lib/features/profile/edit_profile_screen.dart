@@ -78,7 +78,7 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
     await FirebaseFirestore.instance.collection('users').doc(user!.uid).update({
       'username': usernameController.text.trim(),
       'bio': bioController.text.trim(),
-      if (imageUrl != null) 'photoUrl': imageUrl,
+      'photoUrl': ?imageUrl,
     });
 
     setState(() => isLoading = false);

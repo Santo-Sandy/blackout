@@ -1,3 +1,4 @@
+import 'package:blackout/features/post/post_screen.dart';
 import 'package:blackout/features/profile/edit_profile_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -101,6 +102,15 @@ class ProfileScreen extends StatelessWidget {
                     },
                     child: const Text("Edit Profile"),
                   ),
+                ),
+                ElevatedButton(
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (_) => const AddPostScreen()),
+                    );
+                  },
+                  child: Text("Post"),
                 ),
               ],
             ),
